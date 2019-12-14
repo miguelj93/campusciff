@@ -1,5 +1,5 @@
 # campusciff
-Clonamos el repositorio
+## Clonamos el repositorio
 git clone https://github.com/miguelj93/campusciff.git
 
 Vamos a proceder a hacer el primer commit
