@@ -22,3 +22,17 @@ touch fichero1.txt
 git add .
 git commit -m "fichero1 añadido"
 
+Creación del tag v0.1
+git tag v0.1
+
+Subida del tag
+git push --tag origin master
+
+Crear tabla
+
+NOMBRE				GITHUB
+-------------------------------------------------------------
+Rafa		https://github.com/RuFFuS4/campusciff.git
+-------------------------------------------------------------
+Miriam		https://github.com/MIRIAM-GIT/campusciff.git
+-------------------------------------------------------------
