@@ -116,19 +116,19 @@ Subimos los cambios al repositorio remoto
 ## 2.5 Merge directo
 Nos posicionamos en la rama master
 
-![img](https://i.imgur.com/roJxVuI.png)
+![img](https://i.imgur.com/0P1ndWL.png)
 
 	git checkout master
     
 hacer una merge de la rama v0.2 en la rama master
 
-![img](https://i.imgur.com/4wY8pKB.png)
+![img](https://i.imgur.com/HFzPPMc.png)
 
 	git merge v0.2 -m "merge de la rama v0.2 en la rama master"
 
 ## 2.6 Merge con conflicto(I)
 En la rama master poner hola en el fichero1.txt y hacer commit
-![img](https://i.imgur.com/NAMs0sg.png)
+![img](https://i.imgur.com/nqIIwZH.png)
 
 	nano fichero1.txt
 	git add .
@@ -136,7 +136,7 @@ En la rama master poner hola en el fichero1.txt y hacer commit
 
 ## 2.7 Merge con conflicto(II)
 posicionarse en la rama v0.2 y poner adios en el fichero1.txt y hacer commit
-![img](https://i.imgur.com/edWkDUU.png)
+![img](https://i.imgur.com/Ga857oY.png)
 
 	git checkout v0.2
 	nano fichero1.txt
@@ -146,9 +146,9 @@ posicionarse en la rama v0.2 y poner adios en el fichero1.txt y hacer commit
 
 ## 2.8 Merge con conflicto(III)
 posicionarse de nuevo en la rama master y hacer un merge con la rama v0.2
-![img](https://i.imgur.com/IiLsphE.png)
+![img](https://i.imgur.com/I98gf7i.png)
 
-![img](https://i.imgur.com/luJj5Yo.png)
+![img](https://i.imgur.com/Xr76EpC.png)
 
 	git checkout master
 	git merge v0.2
@@ -157,14 +157,14 @@ posicionarse de nuevo en la rama master y hacer un merge con la rama v0.2
 
 ## 2.9 Listado de Ramas
 Listar las ramas con merge y las ramas sin merge
-![img](https://i.imgur.com/kOIVaWx.png)
+![img](https://i.imgur.com/3l45IMo.png)
 
 	git branch --merge
 	git branch --no-merge
 
 ## 2.10 Arreglar conflicto
 Arreglar el conflicto anterior y hacer un commit
-![img](https://i.imgur.com/L1FPWQs.png)
+![img](https://i.imgur.com/FubIvku.png)
 
 	nano fichero1.txt
 	git add .
@@ -172,7 +172,7 @@ Arreglar el conflicto anterior y hacer un commit
 
 ## 2.11 Borrar rama
 
-![img](https://i.imgur.com/qfK27EL.png)
+![img](https://i.imgur.com/QnfzYdv.png)
 
 crear un tag v0.2
 
@@ -184,6 +184,7 @@ Borrar la rama v0.2
     
 ## 2.13 CREAR UNA ORGANIZACIÓN
 ![img](https://i.imgur.com/pLS0OSY.png)
+
 
 
 
